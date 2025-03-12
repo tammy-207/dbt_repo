@@ -40,3 +40,8 @@ models:
     # Applies to all files under models/example/
     example:
       +materialized: table
+    postgres_test:
+      tableau_transformed_data:
+        +materialized: table
+        +schema: data_mart
+        +enabled: true
