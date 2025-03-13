@@ -45,3 +45,8 @@ models:
         +materialized: table
         +schema: data_mart
         +enabled: true
+    patents_transform:
+      title_transform_data:
+        +materialized: table
+        +schema: patents_title
+        +enabled: true
