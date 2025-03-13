@@ -47,6 +47,6 @@ models:
         +enabled: true
     patents_transform:
       title_transform_data:
-        +materialized: view
+        +materialized: table
         +schema: patents_title
         +enabled: true
